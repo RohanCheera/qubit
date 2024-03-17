@@ -1,0 +1,58 @@
+.work-demo{
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+.work-demo-title{
+  padding: var(--pad-10);
+
+}
+
+.work-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.work-demo-more{
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work-demo-card{
+  margin: 1rem;
+  min-width: 13rem;
+  max-width: 22rem;
+  height: 15rem;
+  overflow: hidden;
+}
+.work-demo-button{
+  height: 3rem;
+  width: 10rem;
+}
+
+
+@media (max-width: 767px){
+  .work-demo-card{
+    margin: .5rem;
+    height: 10rem;
+  }
+  .work-demo-button{
+    height: 3rem;
+    width: 10rem;
+    padding: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--font-btn-1);
+    font-weight: var(--font-bold);
+    text-shadow: 2px solid black;
+    
+  }
+  
+
+}

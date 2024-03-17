@@ -1,0 +1,71 @@
+/* Mobile devices with a maximum width of 767px */
+@media (max-width: 767px) {
+  .contact-button{
+    position: absolute;
+    height: 3rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: var(--font-bold);
+    text-shadow: 2px solid black;
+  }
+  .contact{
+  background: url('../../assets/tea.png');
+  background-color: black;
+  background-position:right;
+  height: 20rem;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+   
+  }
+  
+}
+/* Tablets or medium-sized devices with a width between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contact{
+    height: 25rem;
+    background: url('../../assets/contactme.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  .contact-button{
+    height: 4rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: var(--font-btn-1);
+    font-weight: var(--font-bold);
+    text-shadow: 2px solid black;
+    
+  }
+}
+/* Desktops or larger devices with a width of 1024px or more */
+@media (min-width: 1024px) {
+  .contact{
+    height: 25rem;
+    background: url('../../assets/contactme.png');
+    background-repeat: no-repeat;
+    background-color: rgb(43, 38, 38);
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  .contact-button{
+    height: 4rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-size: var(--font-btn-1);
+    font-weight: var(--font-bold);
+    text-shadow: 2px solid black;
+    
+  }
+}
+
