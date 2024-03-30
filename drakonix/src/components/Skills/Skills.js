@@ -5,11 +5,11 @@ import './skills.css'
 function Skills() {
   return (
     <div className='skills '>
-      <h2 className='skills-heading'>My Skills</h2>
+      <h2 className='skills-heading'>My Competencies</h2>
       <div className='skills-content'>
       
         <div className='technical '>
-          <h3 className='skills-subheading'>technical Skills</h3>
+          
           <div className='tech-skills '>
             <div className='tech-skill box-1 ' target='Python'>
              
@@ -65,6 +65,7 @@ function Skills() {
         </div>
         
         {/* <div className='prof '>
+       // <h3 className='skills-subheading'>technical Skills</h3>
         <h3 className='skills-subheading'>professional Skills</h3>
         <div className='non-tech-skills row'>
             <div className='non-tech-skill col-12 '>
