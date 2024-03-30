@@ -38,7 +38,7 @@ function Contact() {
 
     // If username and email do not match predefined values, submit the form
     try {
-      const response = await fetch('backend-eosin-rho.vercel.app
+      const response = await fetch('https://backend-eosin-rho.vercel.app
 /api/form/submit', {
         method: 'POST',
         headers: {
