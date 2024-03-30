@@ -35,8 +35,7 @@ const SingleWorkPage = () => {
     event.preventDefault();
     try {
       // Send POST request to backend API
-      await axios.post('backend-eosin-rho.vercel.app
-/api/projects', {
+      await axios.post('https://backend-eosin-rho.vercel.app/api/projects', {
         title,
         desc: description,
         tech: techStack.split(','), // Convert techStack to an array
