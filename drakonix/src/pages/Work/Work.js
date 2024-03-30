@@ -10,7 +10,8 @@ function Work() {
 
   useEffect(() => {
     // Fetch projects from the API endpoint using Axios
-    axios.get('http://localhost:8800/api/projects')
+    axios.get('backend-eosin-rho.vercel.app
+/api/projects')
       .then(response => {
         setProjects(response.data);
       })
