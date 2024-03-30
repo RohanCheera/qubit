@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5500;
 
 // Enable CORS for all routes
 app.use(cors({
-  origin:[""],
+  origin:["https://fnd-seven.vercel.app"],
   methods:["GET","POST"],
   credentials:true
 }));
