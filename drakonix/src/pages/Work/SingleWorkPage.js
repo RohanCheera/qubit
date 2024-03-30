@@ -9,7 +9,7 @@ const SingleWorkPage = () => {
   const [description, setDescription] = useState('');
   const [techStack, setTechStack] = useState('');
   const [link, setLink] = useState('');
-
+axios.defaults.withCredentials = true;
   const handleUpload = async (event) => {
     const file = event.target.files[0];
     const formData = new FormData();
