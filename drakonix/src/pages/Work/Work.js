@@ -7,10 +7,10 @@ import axios from 'axios';
 
 function Work() {
   const [projects, setProjects] = useState([]);
-
+  axios.defaults.withCredentials=true
   useEffect(() => {
     // Fetch projects from the API endpoint using Axios
-    axios.get('https:/backend-eosin-rho.vercel.app/api/projects')
+    axios.get('https://backend-eosin-rho.vercel.app/api/projects')
       .then(response => {
         setProjects(response.data);
       })
