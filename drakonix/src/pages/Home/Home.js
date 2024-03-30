@@ -39,7 +39,8 @@ function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8800/api/form/submit', formData);
+      const response = await axios.post('backend-eosin-rho.vercel.app
+/api/form/submit', formData);
       console.log(response.data);
       alert('Message sent successfully');
       handleClose();
